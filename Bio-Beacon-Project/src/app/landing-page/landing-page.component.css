@@ -6,10 +6,15 @@
     overflow: hidden;
 } 
 
+#main-image{
+    height: 60%;
+    /* width: 60%; */
+}
+
 #box1{
     width: 530px;
     height: 625px;
-    background-image: url("../../assets/bio-beacon-logo.png");
+    /* background-image: url("../../assets/bio-beacon-logo.png"); */
     position: absolute;
     bottom: -100%;
     left: 30%;
@@ -46,19 +51,7 @@ box1:after{
     }
 }
 
-box2{
-    width: auto;
-    height: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 10em;
-    font-weight: 500;
-    line-height: 130px;
-    position: absolute;
-    top: 250px;
-    left: 100px;
-    overflow: hidden;
-}
+
 
 @keyframes anim3 {
     from{
@@ -69,16 +62,9 @@ box2{
     }
 }
 
-#box3{
-    overflow: hidden;
-}
 
-#container{
-    width: 100%;
-    position: absolute;
-    top: -100%;
-    animation: anim4 2s forwards 2.5s;
-}
+
+
 
 #logo{
     float: left;
