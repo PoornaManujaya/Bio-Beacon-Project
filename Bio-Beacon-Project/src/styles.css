@@ -1,21 +1,30 @@
-body{
-    margin: 0px;
-    background: #801336;
+body {
+  margin: 0px;
+  background: rgb(45, 19, 44);
+  background: linear-gradient(
+    360deg,
+    rgba(45, 19, 44, 1) 0%,
+    rgba(128, 19, 54, 1) 35%,
+    rgba(199, 44, 65, 1) 62%,
+    rgba(238, 69, 64, 1) 100%
+  );
 }
 
-#box2{
-    width: 50%;
-    height: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 8em;
-    font-weight: 500;
-    line-height: 130px;
-    position: absolute;
-    top: 250px;
-    left: 100px;
-    overflow: hidden;
+#box2 {
+  width: 50%;
+  height: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  text-align: center;
+  font-size: 8em;
+  font-weight: 500;
+  line-height: 130px;
+  position: absolute;
+  /* top: 250px;
+    left: 100px; */
+  overflow: hidden;
 }
 
 /* #box3{
@@ -27,3 +36,11 @@ body{
     top: -100%;
     animation: anim4 2s forwards 2.5s;
 } */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
