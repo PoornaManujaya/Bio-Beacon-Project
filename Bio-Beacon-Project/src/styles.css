@@ -18,13 +18,23 @@ body {
   color: rgb(0, 0, 0);
   background-color: white;
   text-align: center;
-  font-size: 8em;
-  font-weight: 500;
-  line-height: 130px;
   position: absolute;
   /* top: 250px;
     left: 100px; */
   overflow: hidden;
+}
+
+#text-container {
+  margin: auto;
+  text-align: center !important;
+  position: absolute;
+  top: 25%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(0%);
+
+  font-size: 8em;
+  font-weight: 500;
+  line-height: 130px;
 }
 
 /* #box3{
@@ -36,10 +46,13 @@ body {
     top: -100%;
     animation: anim4 2s forwards 2.5s;
 } */
+
+
 html,
 body {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
