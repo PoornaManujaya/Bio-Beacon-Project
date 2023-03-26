@@ -8,7 +8,8 @@ body{
     height: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 10em;
+    text-align: center;
+    font-size: 8em;
     font-weight: 500;
     line-height: 130px;
     position: absolute;
@@ -17,12 +18,12 @@ body{
     overflow: hidden;
 }
 
-#box3{
+/* #box3{
     overflow: hidden;
-}
-#container{
+} */
+/* #container{
     width: 100%;
     position: absolute;
     top: -100%;
     animation: anim4 2s forwards 2.5s;
-}
+} */
