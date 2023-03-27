@@ -31,9 +31,9 @@
   height: 100%;
   /* background-image: url("../../assets/bio-beacon-logo.png"); */
   position: absolute;
-  bottom: -100%;
+  bottom: -20%;
   left: 30%;
-  animation: anim 2s forwards, anim2 3s forwards 3s;
+  animation: main-image-animation 3s forwards 0s;
 }
 
 #box1:after {
@@ -46,16 +46,7 @@
   z-index: -1;
 }
 
-@keyframes anim {
-  from {
-    bottom: -100%;
-  }
-  to {
-    bottom: -20%;
-  }
-}
-
-@keyframes anim2 {
+@keyframes main-image-animation {
   from {
     left: 30%;
     width: 50%;
@@ -63,15 +54,6 @@
   to {
     width: 0px;
     left: 55%;
-  }
-}
-
-@keyframes anim3 {
-  from {
-    left: -100%;
-  }
-  to {
-    left: 0%;
   }
 }
 
